@@ -199,7 +199,7 @@ Troubleshooting
 
   Cause:
 
-    Current user (marc-os) does not belong to docker group.
+  Current user (marc-os) does not belong to docker group.
         
   Fix:
 
