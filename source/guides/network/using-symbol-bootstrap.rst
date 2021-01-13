@@ -189,7 +189,7 @@ Troubleshooting
 
   On a fresh `debian 10 <https://debian.org>` install, after installing the symbol-bootstrap program and its dependencies, .
 
-.. code-block:: bash
+  .. code-block:: bash
 
     marc-os:~$ symbol-bootstrap config -p testnet -a dual
     2021-01-13T13:24:19.006Z info     Generating config from preset testnet
