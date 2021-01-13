@@ -184,19 +184,12 @@ Troubleshooting
 **********
 
 .. code-block:: bash
-marc-os@debian-mmnem:~$ symbol-bootstrap config -p testnet -a dual
-		                    _               _           _                       _           _
-	  ___   _   _   _ __ ___   | |__     ___   | |         | |__     ___     ___   | |_   ___  | |_   _ __    __ _   _ __
-	 / __| | | | | | '_ ` _ \  | '_ \   / _ \  | |  _____  | '_ \   / _ \   / _ \  | __| / __| | __| | '__|  / _` | | '_ \
-	 \__ \ | |_| | | | | | | | | |_) | | (_) | | | |_____| | |_) | | (_) | | (_) | | |_  \__ \ | |_  | |    | (_| | | |_) |
-	 |___/  \__, | |_| |_| |_| |_.__/   \___/  |_|         |_.__/   \___/   \___/   \__| |___/  \__| |_|     \__,_| | .__/
-		|___/                                                                                                   |_|
-	2021-01-13T13:24:19.006Z info     Generating config from preset testnet
-	2021-01-13T13:24:19.009Z info     Assembly preset dual
-	2021-01-13T13:24:19.252Z info     User for docker resolved: 1000:1000
-	2021-01-13T13:24:19.253Z info     Running image using Exec: symbolplatform/symbol-server:tools-gcc-0.10.0.4 bash createCertificate.sh
-	2021-01-13T13:24:19.345Z error    Unknown error generating the configuration. Command failed: docker run --rm -u 1000:1000 --workdir=/data --env LD_LIBRARY_PATH=/usr/ca$
-	docker: Got permission denied while trying to connect to the Docker daemon socket at unix:///var/run/docker.sock: Post http://%2Fvar%2Frun%2Fdocker.sock/v1.39/container$
+     marc-os:~$ symbol-bootstrap config -p testnet -a dual
+     2021-01-13T13:24:19.006Z info     Generating config from preset testnet
+     ...
+     2021-01-13T13:24:19.345Z error    Unknown error generating the configuration. Command failed: docker run --rm -u 1000:1000 [...]
+     docker: Got permission denied while trying to connect to the Docker daemon socket at ...]
+    
 
 
 
