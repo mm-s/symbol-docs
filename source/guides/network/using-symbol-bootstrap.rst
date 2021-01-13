@@ -191,11 +191,11 @@ Troubleshooting
 
 .. code-block:: bash
 
-  marc-os:~$ symbol-bootstrap config -p testnet -a dual
-  2021-01-13T13:24:19.006Z info     Generating config from preset testnet
-  ...
-  2021-01-13T13:24:19.345Z error    Unknown error generating the configuration. Command failed: docker run --rm -u 1000:1000 [...]
-  docker: Got permission denied while trying to connect to the Docker daemon socket at ...]
+    marc-os:~$ symbol-bootstrap config -p testnet -a dual
+    2021-01-13T13:24:19.006Z info     Generating config from preset testnet
+    ...
+    2021-01-13T13:24:19.345Z error    Unknown error generating the configuration. Command failed: docker run --rm -u 1000:1000 [...]
+    docker: Got permission denied while trying to connect to the Docker daemon socket at ...]
 
   Cause:
 
