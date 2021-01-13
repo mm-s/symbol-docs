@@ -200,6 +200,7 @@ Cause:
     Current user does not belong to docker group.
         
 Fix:
+
 .. code-block:: bash
 
     sudo addgroup marc-os docker    
