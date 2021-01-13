@@ -199,13 +199,13 @@ Troubleshooting
 
   Cause:
 
-  Current user does not belong to docker group.
+    Current user (marc-os) does not belong to docker group.
         
   Fix:
 
   .. code-block:: bash
 
-  sudo addgroup marc-os docker    
+    sudo addgroup marc-os docker    
 
 
 
