@@ -112,7 +112,7 @@ This will create a folder called ``target`` by default (It can be changed with t
 
 .. note:: 
 
-  If you get the error ``Permission denied while trying to connect to the Docker daemon socket`` it means that your user does not belong to the docker group. Add it with:
+  If you get the error ``Permission denied while trying to connect to the Docker daemon socket`` it means that your user does not belong to the ``docker`` group. Add it with:
 
   .. code-block:: bash
   
